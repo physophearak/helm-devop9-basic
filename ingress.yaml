@@ -9,10 +9,10 @@ spec:
   ingressClassName: nginx 
   tls: 
     - hosts: 
-      - myplants.devnerd.store
+      - 10.110.1.53
       secretName: myplants-secret
   rules:
-  - host: myplants.devnerd.store
+  - host: 10.110.1.53
     http:
       paths:
       - pathType: Prefix
